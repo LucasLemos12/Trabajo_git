@@ -25,10 +25,31 @@ a{
 nav{
     background-color: aquamarine;
 }
-.texto{border: 1px solid black;
+.texto{
+    border: 1px solid black;
 }
+
+
 
 .gradiante{
     background-image: linear-gradient(red, yellow);
 }
 
+.shop{
+    height: 200px;
+    background-color: red;
+    text-align: center;
+    color: greenyellow;
+    animation-name: efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 5s;
+
+}
+
+@keyframes efecto {
+    0%{ width: 100px; }
+    50%{ width: 2000px;}
+    100%{width: 100px;}
+}
