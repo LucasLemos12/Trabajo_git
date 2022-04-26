@@ -27,3 +27,8 @@ nav{
 }
 .texto{border: 1px solid black;
 }
+
+.gradiante{
+    background-image: linear-gradient(red, yellow);
+}
+
