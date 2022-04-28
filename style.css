@@ -5,7 +5,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-style: none;
     text-decoration: none;
-    background-image: url(Imagenes/Fondo1.jpg);
+    background-image: url(Imagenes/Fondo1.jpg); */
 }
 
 
@@ -22,18 +22,15 @@ a{
     text-align: center;
     color: azure;
 }
-nav{
-    background-color: aquamarine;
-}
 .texto{
     border: 1px solid black;
 }
 
 
 
-.gradiante{
+/* .gradiante{
     background-image: linear-gradient(red, yellow);
-}
+} */
 
 .shop{
     height: 200px;
@@ -52,4 +49,13 @@ nav{
     0%{ width: 100px; }
     50%{ width: 2000px;}
     100%{width: 100px;}
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: violet;
+}
+.nav-link:active{
+    color: violet;
 }
