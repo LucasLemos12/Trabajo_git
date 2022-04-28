@@ -33,8 +33,7 @@ a{
 } */
 
 .shop{
-    height: 200px;
-    background-color: red;
+    height: 100px;
     text-align: center;
     color: greenyellow;
     animation-name: efecto;
@@ -46,9 +45,9 @@ a{
 }
 
 @keyframes efecto {
-    0%{ width: 100px; }
-    50%{ width: 2000px;}
-    100%{width: 100px;}
+    0%{ width: 100%; }
+    50%{width: 0%;}
+    100%{width: 100%;}
 }
 .nav-link{
     color: black;
