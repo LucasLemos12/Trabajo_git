@@ -5,15 +5,11 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-style: none;
     text-decoration: none;
-    background-image: url(Imagenes/Fondo1.jpg);
+    background-image: url(Imagenes/Fondo1.jpg); 
 }
-
-
 .lista{
     text-align: center;
 }
-
-
 a{
     color: red;
     
@@ -25,8 +21,6 @@ a{
 .texto{
     border: 1px solid black;
 }
-
-
 
 /* .gradiante{
     background-image: linear-gradient(red, yellow);
